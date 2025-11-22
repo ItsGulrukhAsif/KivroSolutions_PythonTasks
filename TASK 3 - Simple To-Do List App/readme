@@ -1,0 +1,55 @@
+# 🎯 KivroSolutions Task 3 – To Do List App
+
+## 👩‍💻 Author
+**Gulrukh Asif**  
+Python Programming Internship – KivroSolutions  
+
+---
+
+## 🧠 Description
+This project is part of the Kivro Solutions Internship Tasks and demonstrates the use of Python lists, loops, functions, conditional logic, file handling, and GUI development.
+The application allows users to add, view, complete, and delete tasks, and includes both a simple console version and a modern GUI version built using CustomTkinter.
+
+#🎯 Features & Requirements
+Console (Simple) Version
+
+Add new tasks
+View current tasks
+Delete selected tasks using task number
+Runs until the user chooses to exit
+Uses a menu-based system with input choices
+Stores tasks inside a Python list
+
+GUI (Enhanced) Version
+
+Built using CustomTkinter for a modern dark UI
+Add tasks using input field
+Scrollable task viewer
+Complete/Uncomplete tasks using a checkbox
+Delete a selected task by listing number
+Clear all tasks button
+Persistent storage using tasks.txt (auto save & load)
+
+#🧪 Technologies Used
+Component:	Tool/Library
+Programming Language:	Python
+GUI Library:	CustomTkinter
+Storage Method:	Local text file
+Concepts Covered	Lists, loops, functions, conditions, persistence
+
+▶️ How to Run the GUI Version
+1️⃣ Install required module
+pip install customtkinter
+
+2️⃣ Run the program
+python gui_version.py
+
+#📝 Notes & Future Improvements
+
+Potential enhancements that could be added later:
+Editable tasks
+Task search bar
+Priority tags (High, Medium, Low)
+Light/Dark theme switch
+Export to PDF or CSV
+Cloud-based sync
