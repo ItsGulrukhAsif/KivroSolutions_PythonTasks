@@ -1,0 +1,52 @@
+# 🎯 KivroSolutions Task 2 – Simple Student Grade Calculator
+
+## 👩‍💻 Author
+**Gulrukh Asif**  
+Python Programming Internship – KivroSolutions  
+
+---
+
+## 🧠 Description
+The purpose of this task is to allow a user to input a student’s information and their marks in three subjects, then calculate the total, average, and grade (A–F).
+Functions must be used to handle all calculations.
+
+##📥 Requirements Provided By Employer
+
+Allow the user to input a student’s name and marks for 3 subjects.
+Calculate:
+Total marks
+Average marks
+Grade (A, B, C, D, F)
+Display output in a clean, clear format.
+Must use functions for all calculations.
+
+##🧮 Functions Used
+Function	Purpose
+calculate_total(m1, m2, m3)	Adds the three marks
+calculate_average(total)	Divides total by 3
+calculate_grade(avg)	Applies grading logic A–F
+🖥 GUI Extra Features
+
+Beyond the required solution, a PyQt5 Desktop Application is also developed, including:
+
+✔ Dark Mode
+✔ Clean UI with proper widget layout
+✔ Grade Color Highlighting
+✔ Reset Feature
+✔ CSV file saving
+
+#🚀 How To Run
+Simple Version
+python simple_version.py
+
+GUI Version
+Install PyQt5 if not already installed:
+pip install PyQt5
+
+Then run:
+python GUI_version.py
+
+#📌 Notes
+
+Input validation has been handled to avoid incorrect data.
+GUI version is optional and created to improve professionalism & user interaction.
