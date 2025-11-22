@@ -1,0 +1,65 @@
+# 🎯 KivroSolutions 🔐 Task 4 – Simple Password Validator
+
+## 👩‍💻 Author
+**Gulrukh Asif**  
+Python Programming Internship – KivroSolutions  
+
+---
+
+## 📌 Overview
+This task focuses on creating a password validation program that checks whether the user's password meets basic security rules. The program continues running inside a loop, allowing the user to test multiple passwords until they choose to exit.
+
+## 🎯 Learning Objectives
+
+By completing this task, you will practice and understand:
+User input handling
+Conditional statements
+Looping structures
+Basic string validation
+Logical thinking and error handling
+
+## 📝 Requirements
+
+The program should:
+Ask the user to enter a password
+Validate the password based on the following rules:
+At least 6 characters long
+Contains at least one number
+Contains at least one uppercase (capital) letter
+Print:
+"Password Accepted" → If all conditions are met
+"Password Invalid" → If any condition fails
+Allow the user to repeat password validation multiple times using a loop
+Give an option to exit the program
+
+## 🚦 Validation Checklist
+Condition	Requirement	Example
+Length	≥ 6 characters	Abcd1f
+Number	At least 1 digit	A1bcdef
+Capital	At least 1 uppercase letter	Password1
+👨‍💻 Example User Flow
+Enter password: MyPass1
+Password Accepted
+
+Check another password? (yes/no): yes
+Enter password: test
+Password Invalid
+
+Check another password? (yes/no): no
+Program Ended.
+
+## 📚 Concepts Covered
+Concept	Usage
+User Input	Reading password and exit choice
+Loops	Allowing repeated password checks
+Conditionals	Validating password rules
+String Handling	Checking characters, length & type
+🏁 Final Notes
+
+This task builds a foundation for real-world authentication systems, helping develop logic used in login forms, mobile apps, and web security.
+
+Feel free to improve it by adding:
+Special character check
+Strong/weak password rating
+Masked input (****)
+Error messages for specific failed rules
